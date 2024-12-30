@@ -28,11 +28,7 @@ docker build -pull -t keyword2list .
 docker run -d --restart unless-stopped keyword2list
 ```
 
-**Please note**: Be cautions with regular expressions because they can genenerate a lot of false positives without careful consideration.
-
-## TODO:
-
-- [ ] Add ability to automatically remove accounts from lists when they remove the offending content
+**Please note**: Be cautious with regular expressions because they can genenerate a lot of false positives without careful consideration.
 
 ## Credits
 
